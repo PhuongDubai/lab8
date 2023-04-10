@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#EDEEF0;
+}
+.d-flex {
+
+    color: white;
+
+}
+
+.d-flex i {
+    margin-left: 30px;
+}
+.boder{
+    border: 1px solid black;
+    margin-top: 50px;
+    background-color: white;
+}
+.nut{
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.nut button{
+border: 0;
+width: 100%;
+height: 50px;
+background-color:green;
+color: white;
+border-radius: 10px;
+}
+.box2{
+    border: 1px solid black;
+    background-color: white;
+   padding: 20px;
+}
+.mb-2{
+    color: black;
+}
+.mb-0{
+    color: black;
+}
+
+
+.box button {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+
+.box button:nth-child(4) {
+    background-color: lightgreen;
+    border: 0px;
+}
+.icon span{
+    float: left;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: #999;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 20px;
+    
+}
+.under{
+    margin-top: 50px;
+    background-color: white;
+}
+.menu1{
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.shoping p {
+display: inline;
+margin: 0;
+}
+.shoping{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.apply button{
+height: 50px;
+background-color:green; 
+color: white;
+
+
+}
+.under{
+ text-align: center;
+}
+.under span{
+    text-align: center;
+   }
+
+
+

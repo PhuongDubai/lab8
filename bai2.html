@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bai2.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <h1>TSHOP</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">NEW
+                            PRODUCTS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">SHOP</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PAGES</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">ALL PAGE LINK</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"> CART</i>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="container">
+     <div class="menu1">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Category</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="#">Cart</a></li>
+            </ol>
+          </nav>
+        </div>
+      </nav>
+      
+     </div>
+     <div class="shoping">
+      <div class="cart">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <p>Shopping cart</p>
+      </div>
+      <div class="cart1">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        <p>Back to shopping</p>
+      </div>
+    </div>
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class="boder">
+                    <section class="h-100 h-custom">
+                        <div class="container h-100 py-5">
+                          <div class="row d-flex justify-content-center align-items-center h-100">
+                            <div class="col">
+                      
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col" class="h5">Shopping Bag</th>
+                                      <th scope="col">Format</th>
+                                      <th scope="col">Quantity</th>
+                                      <th scope="col">Price</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                          <img src="https://i.imgur.com/2DsA49b.webp" class="img-fluid rounded-3"
+                                            style="width: 120px;" alt="Book">
+                                          <div class="flex-column ms-4">
+                                            <p class="mb-2">Book</p>
+                                            <p class="mb-0">100$</p>
+                                          </div>
+                                        </div>
+                                      </th>
+                                      <td class="align-middle">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                      </td>
+                                      <td class="align-middle">
+                                        <div class="d-flex flex-row">
+                                          <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                          </button>
+                      
+                                          <input id="form1" min="0" name="quantity" value="2" type="number"
+                                            class="form-control form-control-sm" style="width: 50px;" />
+                      
+                                          <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                          </button>
+                                        </div>
+                                      </td>
+                                      <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">$9.99</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                          <div class="d-flex align-items-center">
+                                            <img src="https://i.imgur.com/2DsA49b.webp" class="img-fluid rounded-3"
+                                              style="width: 120px;" alt="Book">
+                                            <div class="flex-column ms-4">
+                                              <p class="mb-2">Book</p>
+                                              <p class="mb-0">100$</p>
+                                            </div>
+                                          </div>
+                                        </th>
+                                        <td class="align-middle">
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </td>
+                                        <td class="align-middle">
+                                          <div class="d-flex flex-row">
+                                            <button class="btn btn-link px-2"
+                                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                              <i class="fa fa-minus" aria-hidden="true"></i>
+                                            </button>
+                        
+                                            <input id="form1" min="0" name="quantity" value="2" type="number"
+                                              class="form-control form-control-sm" style="width: 50px;" />
+                        
+                                            <button class="btn btn-link px-2"
+                                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                              <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </button>
+                                          </div>
+                                        </td>
+                                        <td class="align-middle">
+                                          <p class="mb-0" style="font-weight: 500;">$9.99</p>
+                                        </td>
+                                      </tr>
+                                    <tr>
+                                      <th scope="row" class="border-bottom-0">
+                                        <div class="d-flex align-items-center">
+                                          <img src="https://i.imgur.com/Oj1iQUX.webp" class="img-fluid rounded-3"
+                                            style="width: 120px;" alt="Book">
+                                          <div class="flex-column ms-4">
+                                            <p class="mb-2">Book</p>
+                                              <p class="mb-0">100$</p>
+                                          </div>
+                                        </div>
+                                      </th>
+                                      <td class="align-middle border-bottom-0">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                      </td>
+                                      <td class="align-middle border-bottom-0">
+                                        <div class="d-flex flex-row">
+                                          <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                          </button>
+                      
+                                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                                            class="form-control form-control-sm" style="width: 50px;" />
+                      
+                                          <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                          </button>
+                                        </div>
+                                      </td>
+                                      <td class="align-middle border-bottom-0">
+                                        <p class="mb-0" style="font-weight: 500;">$13.50</p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                      
+                              <div class="card shadow-2-strong mb-5 mb-lg-0" style="border-radius: 16px;">
+                                
+                              </div>
+                      
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="nut">
+                    <button>Proceed to checkout</button>
+                </div>
+               <div class="box2">
+                <div class="row">
+                    <div class="col-6">
+                        
+                        <p>Total products</p>
+                        
+                    </div>
+                    <div class="col-6">
+                        <h5>$216.51</h5>
+                        
+                    </div>
+                    
+                    <div class="col-6">
+                        
+                        <p>Shipping</p>
+
+                    </div>
+                    <div class="col-6">
+                        <h5>Free Shipping</h5>
+                    </div>
+                    <div class="col-6">
+                        <p>Total(tax excl)</p>
+
+                    </div>
+                    <div class="col-6">
+                        <h6>$216.51</h6>
+                    </div>
+                    <div class="col-6">
+                        <p>Total tax</p>
+
+                    </div>
+                    <div class="col-6">
+                        <h6>$0.00</h6>
+                    </div>
+                    <div class="col-6">
+                        <p>Total</p>
+
+                    </div>
+                    <div class="col-6">
+                        <h5>$216.51</h5>
+                    </div>
+                    <div class="apply">
+                     
+                        <div class="card-body p-4 d-flex flex-row">
+                          <div class="form-outline flex-fill">
+                            <input type="text" id="form1" class="form-control form-control-lg" />
+                            
+                          </div>
+                          <button type="button" class="btn btn-outline-warning btn-lg ms-3">Apply</button>
+                        
+                      </div>
+                  </div>
+                    
+                </div>
+               </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="under">
+        <div class="contaier">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h3>SUPPORT</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <p><i class="fa fa-phone" aria-hidden="true"> +1-202-555-0151</i></p>
+                        <p><i class="fa fa-envelope-o" aria-hidden="true">help@yourweb.com</i></p>
+    
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h3>SHOP</h3>
+                        <hr>
+                        <p>Men's</p>
+                        <p>Kid</p>
+                        <p>Shoes</p>
+                        <p>Gift Cards</p>
+    
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-6 col-sm-12">
+                    <div class="box">
+                        <h3>INFORMATION</h3>
+                        <hr>
+                        <p>Questions?</p>
+                        <p>Order Status</p>
+                        <p>String Charts</p>
+                        <p>Return Policy</p>
+                        <p>Contact Us</p>
+    
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h3>MY ACCOUNT</h3>
+                        <hr>
+                        <p>My Account</p>
+                        <p>My Address</p>
+                        <p>Wish list</p>
+                        <p>Order list</p>
+                        <p>Order Status</p>
+    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="box" >
+                        <h3>STAY IN TOUCH</h3>
+                        <hr>
+                        <button>
+                            <p>Email</p>
+                        </button>
+                        <button>
+                            <p>SUBSCRIBE</p>
+                        </button>
+    
+    
+                    </div>
+                    <div class="icon">
+                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-paypal" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-youtube" aria-hidden="true"></i></span>
+                </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>
